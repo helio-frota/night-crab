@@ -25,3 +25,9 @@ loops:
 ```fish
 cargo run --bin loops -q
 ```
+
+functions:
+
+```fish
+cargo run --bin functions -q
+```
