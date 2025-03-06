@@ -5,13 +5,6 @@
 
 ## Calling lua scripts from rust
 
-* hello world
-* basic types
-* string and format
-* loops
-* functions
-* misc
-
 ```fish
 cargo run
 cargo run --bin basic_types
