@@ -5,7 +5,8 @@ fn main() {
 
     let script = lua.load(
         r#"
- print("print from lua")
+print("print from lua")
+io.write("io.write from lua")
         "#,
     );
 
