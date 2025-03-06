@@ -13,3 +13,9 @@ basic types:
 ```fish
 cargo run --bin basic_types -q
 ```
+
+string and format:
+
+```fish
+cargo run --bin string_and_format -q
+```
