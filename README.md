@@ -1,33 +1,22 @@
 # night-crab
 
-The lua part i'm following this nice [Lua tutorial](https://www.youtube.com/watch?v=iMacxZQMPXs)
+* The lua part i'm following this nice [Lua tutorial](https://www.youtube.com/watch?v=iMacxZQMPXs)
+* The Rust part is using mlua crate https://crates.io/crates/mlua
 
-hello world:
+## Calling lua scripts from rust
 
-```fish
-cargo run -q
-```
-
-basic types:
-
-```fish
-cargo run --bin basic_types -q
-```
-
-string and format:
+* hello world
+* basic types
+* string and format
+* loops
+* functions
+* misc
 
 ```fish
-cargo run --bin string_and_format -q
-```
-
-loops:
-
-```fish
-cargo run --bin loops -q
-```
-
-functions:
-
-```fish
-cargo run --bin functions -q
+cargo run
+cargo run --bin basic_types
+cargo run --bin string_and_format
+cargo run --bin loops
+cargo run --bin functions
+cargo run --bin misc
 ```
