@@ -19,3 +19,9 @@ string and format:
 ```fish
 cargo run --bin string_and_format -q
 ```
+
+loops:
+
+```fish
+cargo run --bin loops -q
+```
